@@ -1,1 +1,53 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradle International</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            fontFamily: {
+                'Montserrat': ['Montserrat'],
+                'Noto-Sans': ['"Noto Sans"'],
+                'Comforter-Brush': ['"Comforter Brush"']
+            }
+            }
+        }
+        }
+    </script>
+  
+</head>
+
+<body class="font-Noto-Sans">
+
+    <!-- Header -->
+    <header class="w-full bg-[url('assets/images/comming-soon.jpg')] bg-cover bg-bottom">
+
+        <div class="w-half min-h-screen md:w-1/2 bg-gradient-to-b from-gray-900/90 to-gray-900/10 p-10 flex">
+            <div class="w-full text-center my-auto">
+                <h1 class="font-bold text-5xl text-amber-500 mb-10 md:text-right">Tradle International</h1>
+
+                <!-- Content -->
+                <p class="text-base mb-10 text-gray-200 md:text-right">Tradle International, a newly established and dynamic international trading company. Specializing in facilitating cross-border trade, Tradle International is committed to fostering mutually beneficial partnerships with businesses worldwide. Our core strengths lie in leveraging a comprehensive understanding of international markets, adept negotiation skills, and a commitment to delivering excellence in every transaction. With a diverse portfolio spanning various industries, we aim to connect suppliers and buyers seamlessly, ensuring the efficient flow of goods and services across borders. At Tradle International, our unwavering dedication to integrity, innovation, and client satisfaction sets us apart as a trusted partner for those seeking to navigate the complexities of international trade with confidence.</p>
+
+            </div>
+        </div>
+
+    </header>
+
+</body>
+</html>
