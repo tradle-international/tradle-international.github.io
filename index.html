@@ -1,53 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tradle International</title>
+  <meta charset="utf-8">
+  <title>Tradle International</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
 
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
+  <link href="favicon.ico" rel="shortcut icon">
 
-    <script>
-        tailwind.config = {
-        theme: {
-            extend: {
-            fontFamily: {
-                'Montserrat': ['Montserrat'],
-                'Noto-Sans': ['"Noto Sans"'],
-                'Comforter-Brush': ['"Comforter Brush"']
-            }
-            }
-        }
-        }
-    </script>
-  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate-css/animate.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
 </head>
 
-<body class="font-Noto-Sans">
+<body>
+  <div id="preloader"></div>
 
-    <!-- Header -->
-    <header class="w-full bg-[url('assets/images/comming-soon.jpg')] bg-cover bg-bottom">
-
-        <div class="w-half min-h-screen md:w-1/2 bg-gradient-to-b from-gray-900/90 to-gray-900/10 p-10 flex">
-            <div class="w-full text-center my-auto">
-                <h1 class="font-bold text-5xl text-amber-500 mb-10 md:text-right">Tradle International</h1>
-
-                <!-- Content -->
-                <p class="text-base mb-10 text-gray-200 md:text-right">Tradle International, a newly established and dynamic international trading company. Specializing in facilitating cross-border trade, Tradle International is committed to fostering mutually beneficial partnerships with businesses worldwide. Our core strengths lie in leveraging a comprehensive understanding of international markets, adept negotiation skills, and a commitment to delivering excellence in every transaction. With a diverse portfolio spanning various industries, we aim to connect suppliers and buyers seamlessly, ensuring the efficient flow of goods and services across borders. At Tradle International, our unwavering dedication to integrity, innovation, and client satisfaction sets us apart as a trusted partner for those seeking to navigate the complexities of international trade with confidence.</p>
-
-            </div>
+  <!--==========================
+  Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <div class="wow fadeIn">
+        <div class="hero-logo">
+          <img class="" src="img/logo.png" alt="">
         </div>
 
-    </header>
+        <h1>Tradle International</h1>
+        <h2>Navigating International Trade with Confidence.</h2>
+        <div class="actions">
+          <a href="#about" class="btn-get-started">About</a>
+          <a href="#services" class="btn-services">Our Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+  Header Section
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
+        <!-- Uncomment below if you prefer to use a text image -->
+        <!--<h1><a href="#hero">Header 1</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
+      </nav>
+      <!-- #nav-menu-container -->
+    </div>
+  </header>
+  <!-- #header -->
+
+  <!--==========================
+  About Section
+  ============================-->
+  <section id="about">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">About Us</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">With Tradle International, excellence is not just a promise; it's our commitment.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container about-container wow fadeInUp">
+      <div class="row">
+
+        <div class="col-lg-6 about-img">
+          <img src="img/about-img.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 about-content">
+          <h2 class="about-title">We provide exim services</h2>
+          <p class="about-text">
+            Welcome to Tradle International, synonymous with excellence in the Import-Export industry. As a leading player, we specialize in sourcing, processing, and trading goods globally, with a focus on Dry Fruits and metals. Operating on a global scale, we conduct seamless import-export transactions with countries across the Americas, Europe, Asia, Oceania, and the Middle East.
+          </p>
+          <p class="about-text">
+            What sets us apart is our unwavering commitment to delivering the best to our customers. Our well-defined business approach, from understanding order requirements to ensuring secure deliveries, guarantees satisfaction every time. Our success is founded on quality products, a diverse range, impeccable packaging, superb logistics, and customer-oriented services. We provide multiple payment and shipment options to meet the diverse needs of our clientele.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+  Services Section
+  ============================-->
+  <section id="services">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Our Services</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">We pride ourselves on offering a comprehensive suite of services designed to meet the diverse needs of our global clientele.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 service-item">
+          <div class="service-icon"><i class="fa fa-arrow-circle-down"></i></div>
+          <h4 class="service-title"><a href="">Import</a></h4>
+          <p class="service-description">Expert in sourcing of high-quality goods from various countries.</p>
+        </div>
+        <div class="col-md-4 service-item">
+          <div class="service-icon"><i class="fa fa-arrow-circle-up"></i></div>
+          <h4 class="service-title"><a href="">Export</a></h4>
+          <p class="service-description">Extensive experience in exporting goods globally.</p>
+        </div>
+        <div class="col-md-4 service-item">
+          <div class="service-icon"><i class="fa fa-truck"></i></div>
+          <h4 class="service-title"><a href="">Logistics and Distribution</a></h4>
+          <p class="service-description">Efficient and reliable logistics services for the safe and timely transportation of goods.</p>
+        </div>
+        <div class="col-md-4 service-item">
+          <div class="service-icon"><i class="fa fa-globe"></i></div>
+          <h4 class="service-title"><a href="">Trading</a></h4>
+          <p class="service-description">Expertise in trading a diverse range of products, including Dry Fruits and metals.</p>
+        </div>
+        <div class="col-md-4 service-item">
+          <div class="service-icon"><i class="fa fa-dollar"></i></div>
+          <h4 class="service-title"><a href="">Global Transactions</a></h4>
+          <p class="service-description">Currency and payment flexibility to accommodate international business requirements.</p>
+        </div>
+        <div class="col-md-4 service-item">
+          <div class="service-icon"><i class="fa fa-certificate"></i></div>
+          <h4 class="service-title"><a href="">Quality Assurance</a></h4>
+          <p class="service-description">Commitment to delivering top-tier products, backed by stringent QA measures at every stage of the supply chain.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+  Footer
+============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright">
+            &copy; Copyright <strong>Tradle International</strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Imperial
+            -->
+            Designed by Ashhar with ❤️</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Required JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/morphext/morphext.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/stickyjs/sticky.js"></script>
+  <script src="lib/easing/easing.js"></script>
+
+  <!-- Template Specisifc Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
+  <script src="contactform/contactform.js"></script>
+
 
 </body>
+
 </html>
